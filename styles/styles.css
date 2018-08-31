@@ -1,0 +1,130 @@
+/**
+ * Default stylesheet.
+ *
+ * @author Veronica Seoane
+ * @version 110801
+ */
+
+
+body {
+    background-color: #315aff;
+    background-image: url(../bg.png);
+    background-repeat: repeat-y;
+    /*background-attachment: fixed;*/
+
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    text-align: justify;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 140px;
+    background-color: yellow;
+    
+    border-bottom-width: 6px;
+    border-bottom-color: #88bdff;
+    border-bottom-style: solid;
+    margin: 0;
+    padding: 0;
+
+}
+
+#title {
+    width: 355px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#logo {
+    float: left; /* for IE7 */
+    border: 0;
+    width: 355px;
+    height: 80px;
+    margin-top: 40px;
+}
+
+h1 {
+    color: #315aff;
+    font-variant: small-caps;
+    width: 400px;
+    opacity: 0.9;
+
+    padding-top: 40px;
+    margin: 0;    
+    margin-left: auto;
+    margin-right: auto;
+
+    -webkit-transform: rotate(-10deg); 
+    -moz-transform: rotate(-10deg);
+    -o-transform:rotate(-10deg);
+}
+
+section {
+    display: block;
+    background-color: #88bdff;
+    width: 800px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    border-width: 6px;
+    border-color: yellow;
+    border-style: solid;
+
+    line-height: 1.5em;
+    font-size: medium;
+
+    border-radius: 30px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+}
+
+article {
+    font-size: small;
+}
+
+article#flashContainer{
+    line-height: 0em;
+}
+
+#html5link {
+    position: fixed;
+    right: 0;
+    bottom: 50px;
+}
+#html5link img {
+    width: 64px; 
+    height: 64px; 
+    border: 0;
+}
+
+footer {
+    background-color: yellow;
+    display: block;
+
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: small;
+    text-align: right;
+
+    padding: 1px;
+    margin-top: 20px;
+
+    border-top-width: 6px;
+    border-top-color: #88bdff;
+    border-top-style: solid;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: #d40;
+    text-decoration: none;
+}
+a:hover, a:active {
+    text-decoration: underline;
+}
+
